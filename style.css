@@ -9,9 +9,7 @@ col {
 /* .col > img {
   width: 70%;
 } */
-.carousel-item {
-  height: 130px;
-}
+
 img {
   transition: all 0.2s;
 }
@@ -20,7 +18,7 @@ img:hover {
 }
 
 .footer-container {
-  max-width: 600px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -40,6 +38,7 @@ a {
 }
 a:hover {
   color: rgba(100%, 100%, 100%, 1);
+  text-decoration: none;
 }
 
 .first-list ul li:nth-child(6) a {
@@ -54,4 +53,14 @@ a:hover {
 .first-list ul li:nth-child(6) {
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+
+.second-list a,
+.third-list a,
+.fourth-list a {
+  display: block;
+}
+
+#footer {
+  height: 20vh;
 }
